@@ -6,9 +6,11 @@ public class Human {
     private String gender;
     private int height;
 
-    public Human(String name, int age) {
+    public Human(String name, int age, String gender, int height) {
         this.name = name;
         this.age = age;
+        this.gender = gender;
+        this.height = height;
     }
 
     public String myName (String name){
