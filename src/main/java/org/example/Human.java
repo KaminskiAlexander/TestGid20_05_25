@@ -13,6 +13,10 @@ public class Human {
         return "my name is " + name;
     }
 
+    public int myAge (int age){
+        return age + 10;
+    }
+
     public String getName() {
         return name;
     }
