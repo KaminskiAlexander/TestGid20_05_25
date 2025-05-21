@@ -3,6 +3,8 @@ package org.example;
 public class Human {
     private String name;
     private int age;
+    private String gender;
+    private int height;
 
     public Human(String name, int age) {
         this.name = name;
